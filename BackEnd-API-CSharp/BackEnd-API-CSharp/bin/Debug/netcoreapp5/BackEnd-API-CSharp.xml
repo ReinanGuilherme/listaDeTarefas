@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BackEnd-API-CSharp</name>
+    </assembly>
+    <members>
+        <member name="M:BackEnd_API_CSharp.Controllers.TasksToDo.GetTaks">
+            <summary>
+            Buscando todas as tarefas registradas.
+             </summary>
+             <returns></returns>
+        </member>
+        <member name="M:BackEnd_API_CSharp.Controllers.TasksToDo.CreateTask(BackEnd_API_CSharp.Models.TaskToDo)">
+             <summary>
+             Criando uma nova tarefa.
+             </summary>
+             <param name="taskToDo"></param>
+             <returns>A newly created TodoItem</returns>
+             <remarks>
+             Sample request:
+             
+                 {
+                    "status": false,
+                    "date": "17/06/2022",
+                    "task": "Aprender C# e ficar rico"
+                 }
+            
+             </remarks>
+        </member>
+    </members>
+</doc>
